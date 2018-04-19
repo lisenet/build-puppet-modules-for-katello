@@ -6,3 +6,5 @@ A Katello repository may be a plain directory containing a Pulp manifest and pac
 The <strong>name</strong> is the file name, the  <strong>checksum</strong> is SHA256 digest of the file, and the <strong>size</strong> is the size of the file in bytes. The Pulp manifest must be named <strong>PULP_MANIFEST</strong>.
 
 Having this knowledge, we can build Puppet modules manually, generate a Pulp manifest and import everything in to Katello.
+# Katello Separate Lifecycle for Puppet Modules
+https://www.lisenet.com/2018/katello-separate-lifecycle-for-puppet-modules/
