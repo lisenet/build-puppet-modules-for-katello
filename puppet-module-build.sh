@@ -8,7 +8,7 @@
 # The location of Puppet modules. This has chanced between
 # Puppet 3.x and 4.x, therefore no longer hardcoded.
 # You need to specify the path to the modules you want to build.
-MOD_DIR="";
+MOD_DIR=$1;
 MANIFEST=""$MOD_DIR"/PULP_MANIFEST";
 MANIFEST_BACKUP=""$MOD_DIR"/PULP_MANIFEST.backup";
 
